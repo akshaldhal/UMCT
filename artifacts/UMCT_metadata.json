@@ -644,7 +644,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"UMCT.sol": "UMCT"
+			"contracts\\UMCT.sol": "UMCT"
 		},
 		"evmVersion": "berlin",
 		"libraries": {},
@@ -674,7 +674,7 @@
 				"dweb:/ipfs/QmezuXg5GK5oeA4F91EZhozBFekhq5TD966bHPH18cCqhu"
 			]
 		},
-		"UMCT.sol": {
+		"contracts\\UMCT.sol": {
 			"keccak256": "0x85344c24c890982d34a6cae72c2fcd84360c21c9c91d45afaf059058c9e7b14f",
 			"license": "MIT",
 			"urls": [

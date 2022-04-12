@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\adminApp.sol": "adminApp"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/security/ReentrancyGuard.sol": {
+			"keccak256": "0x0e9621f60b2faabe65549f7ed0f24e8853a45c1b7990d47e8160e523683f3935",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://287a2f8d5814dd0f05f22b740f18ca8321acc21c9bd03a6cb2203ea626e2f3f2",
+				"dweb:/ipfs/QmZRQv9iuwU817VuqkA2WweiaibKii69x9QxYBBEfbNEud"
+			]
+		},
+		"contracts\\adminApp.sol": {
+			"keccak256": "0xc9be471772af66c34436f797997d7d14a73287b55d1e8a4b35d3f34813d17a3d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a45746e12b897632ac507e00416b802fd1914d2536ab71151ce8fa27414603c4",
+				"dweb:/ipfs/QmSriRRJzmBPzWW4rBAsxDzsb9mgMwG3NB99NG1tDUogjW"
+			]
+		}
+	},
+	"version": 1
+}
