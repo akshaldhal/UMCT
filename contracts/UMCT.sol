@@ -38,9 +38,9 @@ contract UMCT is ReentrancyGuard{
 
 
     address payable owner;
+    address private networkAdd = 0x2E6102cA1e020bfD044A3CB54540F84Dcb4eAF02;
     uint256 private contractComission = 2;
     bool private nonRestrictedMarkets = true;
-    address private networkAdd = 0x2E6102cA1e020bfD044A3CB54540F84Dcb4eAF02;
     
     
     function setNonRestrictedMarkets(bool val) public {
@@ -83,9 +83,6 @@ contract UMCT is ReentrancyGuard{
 /////////////////////////////////////////////////////////////////////////////
 
 
-    constructor(){
-        owner = payable(msg.sender);
-    }
     struct MarketItem {
         uint256 tokenId;
         address payable owner;
@@ -227,7 +224,7 @@ contract UMCT is ReentrancyGuard{
 
     function createToken(//string memory _tokenURI,
     uint256 price, uint256 _original_owner_comission) public payable nonReentrant {
-        require(price > 0 ether, "Sellign price must be greater than 0 eth");
+        require(price > 0 ether, "Selling price must be greater than 0 eth");
         require(_original_owner_comission <= 10, "Invalid comission value");
         _itemIds.increment();
         uint256 newItemId = _itemIds.current();
